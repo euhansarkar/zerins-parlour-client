@@ -25,4 +25,14 @@
 11. create a basic auth provider
 
 12.then create signup and login page to apply auth functions
+
+13. in the login and signup page we need to use react hook form . 
+
+14. after authentication we need to complete the home page
+
+15. in the home page we will create a banner 
+
+16. 
+
+
 */

@@ -5,12 +5,12 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: process.env.REACT_APP_apiKey,
-  authDomain: process.env.REACT_APP_authDomain,
-  projectId: process.env.REACT_APP_projectId,
-  storageBucket: process.env.REACT_APP_storageBucket,
-  messagingSenderId: process.env.REACT_APP_messagingSenderId,
-  appId: process.env.REACT_APP_appId,
+  apiKey: "AIzaSyBKMEKnsC_maOTSKahEdh2xZIpmblvue9c",
+  authDomain: "zerins-parlour.firebaseapp.com",
+  projectId: "zerins-parlour",
+  storageBucket: "zerins-parlour.appspot.com",
+  messagingSenderId: "872140856168",
+  appId: "1:872140856168:web:de18670b65d0e18094d4dd"
 };
 
 // Initialize Firebase
