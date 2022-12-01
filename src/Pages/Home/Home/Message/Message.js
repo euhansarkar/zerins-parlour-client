@@ -14,7 +14,7 @@ const Message = () => {
             {...register("fname")}
             type="text"
             placeholder="First Name"
-            className="input input-bordered w-full"
+            className="input input-bordered focus:outline-none w-full"
           />
         </div>
         <div className="form-control w-full">
@@ -22,7 +22,7 @@ const Message = () => {
             {...register("lname")}
             type="text"
             placeholder="Last Name"
-            className="input input-bordered w-full"
+            className="input input-bordered focus:outline-none w-full"
           />
         </div>
         <div className="form-control w-full">
@@ -30,7 +30,7 @@ const Message = () => {
             {...register("email")}
             type="email"
             placeholder="Type here"
-            className="input input-bordered w-full"
+            className="input input-bordered focus:outline-none w-full"
           />
         </div>
         <div className="form-control w-full">
@@ -38,12 +38,12 @@ const Message = () => {
             {...register("phone")}
             type="phone"
             placeholder="Type here"
-            className="input input-bordered w-full"
+            className="input input-bordered focus:outline-none w-full"
           />
         </div>
         <div className="form-control col-span-2">
           <textarea
-            className="textarea textarea-bordered h-24"
+            className="textarea textarea-bordered focus:outline-none h-24"
             placeholder="your message"
           ></textarea>
         </div>

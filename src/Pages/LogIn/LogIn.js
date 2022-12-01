@@ -51,7 +51,7 @@ const LogIn = () => {
               type="text"
               {...register("email")}
               placeholder="Your Email"
-              className="input input-bordered w-full"
+              className="input input-bordered focus:outline-none w-full"
             />
           </div>
 
@@ -63,7 +63,7 @@ const LogIn = () => {
               type="password"
               {...register("password")}
               placeholder="Your Email"
-              className="input input-bordered w-full"
+              className="input input-bordered focus:outline-none w-full"
             />
           </div>
           <label className="label">
