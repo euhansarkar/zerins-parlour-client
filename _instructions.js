@@ -32,7 +32,11 @@
 
 15. in the home page we will create a banner 
 
-16. 
+16. after completing the home page we will go to the dashboard page and try to complete
+
+17. we need to create a dashboard layout for creating spesific dashboard layout
+
+18. to load data from 
 
 
 */

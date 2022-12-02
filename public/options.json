@@ -1,0 +1,76 @@
+[
+  {
+    "name": "Anti Age Face Treatment",
+    "image": "https://i.ibb.co/vz4QM8g/icon1.png",
+    "price": 199,
+    "description": "Amazing flyers, social media posts and brand representations that would make your brand stand out.",
+    "slots": [
+      "08.00 AM - 08.30 AM",
+      "08.30 AM - 09.00 AM",
+      "09.00 AM - 9.30 AM",
+      "09.30 AM - 10.00 AM",
+      "10.00 AM - 10.30 AM",
+      "10.30 AM - 11.00 AM",
+      "11.00 AM - 11.30 AM",
+      "11.30 AM - 12.00 AM",
+      "1.00 PM - 1.30 PM",
+      "1.30 PM - 2.00 PM",
+      "2.00 PM - 2.30 PM",
+      "2.30 PM - 3.00 PM",
+      "3.00 PM - 3.30 PM",
+      "3.30 PM - 4.00 PM",
+      "4.00 PM - 4.30 PM",
+      "4.30 PM - 5.00 PM"
+    ]
+  },
+
+  {
+    "name": "Hair Color & Styleing",
+    "image": "https://i.ibb.co/mqX8Kh8/icon2.png",
+    "price": 99,
+    "description": "We craft stunning and amazing web UI, using a well drrafted UX to fit your product.",
+    "slots": [
+      "08.00 AM - 08.30 AM",
+      "08.30 AM - 09.00 AM",
+      "09.00 AM - 9.30 AM",
+      "09.30 AM - 10.00 AM",
+      "10.00 AM - 10.30 AM",
+      "10.30 AM - 11.00 AM",
+      "11.00 AM - 11.30 AM",
+      "11.30 AM - 12.00 AM",
+      "1.00 PM - 1.30 PM",
+      "1.30 PM - 2.00 PM",
+      "2.00 PM - 2.30 PM",
+      "2.30 PM - 3.00 PM",
+      "3.00 PM - 3.30 PM",
+      "3.30 PM - 4.00 PM",
+      "4.00 PM - 4.30 PM",
+      "4.30 PM - 5.00 PM"
+    ]
+  },
+
+  {
+    "name": "Skin Care Treatment",
+    "image": "https://i.ibb.co/KxV9MmN/icon3.png",
+    "price": 199,
+    "description": "With well written codes, we build amazing apps for all platforms, mobile and web apps in general.",
+    "slots": [
+      "08.00 AM - 08.30 AM",
+      "08.30 AM - 09.00 AM",
+      "09.00 AM - 9.30 AM",
+      "09.30 AM - 10.00 AM",
+      "10.00 AM - 10.30 AM",
+      "10.30 AM - 11.00 AM",
+      "11.00 AM - 11.30 AM",
+      "11.30 AM - 12.00 AM",
+      "1.00 PM - 1.30 PM",
+      "1.30 PM - 2.00 PM",
+      "2.00 PM - 2.30 PM",
+      "2.30 PM - 3.00 PM",
+      "3.00 PM - 3.30 PM",
+      "3.30 PM - 4.00 PM",
+      "4.00 PM - 4.30 PM",
+      "4.30 PM - 5.00 PM"
+    ]
+  }
+]
