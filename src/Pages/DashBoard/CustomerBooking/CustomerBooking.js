@@ -13,24 +13,7 @@ const CustomerBooking = () => {
     console.log(data);
   };
 
-  const { data: services, isLoading } = useQuery({
-    queryKey: [`services`],
-    queryFn: async () => {
-      const res = await fetch(`http://localhost:5000/services`);
-      const data = await res.json();
-      return data;
-    },
-  });
 
-  if (isLoading) {
-    return <Loader></Loader>;
-  }
-
-  const handleServiceOption = (event) => {
-    console.log(event.target.value);
-  };
-
-  console.log(service);
 
   return (
     <div className="w-1/2">
@@ -56,21 +39,12 @@ const CustomerBooking = () => {
 
         <div className="form-control w-full">
           <select
-            onChange={handleBookingForm}
             type="email"
+            onChange={e => setService(e.target.value)}
             {...register("service")}
             placeholder="Your Email"
             className="input input-bordered focus:outline-none w-full"
           >
-            {services.map((service, index) => (
-              <option
-                key={service._id}
-                className="selected"
-                value={service?.name}
-              >
-                {service?.name}
-              </option>
-            ))}
           </select>
         </div>
 

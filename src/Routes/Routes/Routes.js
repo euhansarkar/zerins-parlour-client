@@ -1,4 +1,5 @@
 import DashBoardLayout from "../../Layout/DashBoardLayout";
+import AllServices from "../../Pages/AllServices/AllServices";
 import CustomerBooking from "../../Pages/DashBoard/CustomerBooking/CustomerBooking";
 import LogIn from "../../Pages/LogIn/LogIn";
 import SIgnUp from "../../Pages/SignUp/SIgnUp";
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
         path: `/signup`,
         element: <SIgnUp></SIgnUp>,
       },
+      {
+        path:`/allservices`,
+        element: <AllServices></AllServices>
+      }
     ],
   },
   {
@@ -35,8 +40,9 @@ const router = createBrowserRouter([
     ),
     children: [
       {
-        path: `/dashboard`,
+        path: `/dashboard/:id`,
         element: <CustomerBooking></CustomerBooking>,
+        loader: ({params}) => fetch(`http://localhost:5000/services/${params.id}`)
       },
     ],
   },

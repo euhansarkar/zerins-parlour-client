@@ -26,7 +26,7 @@ const DashBoardLayout = () => {
               <Link to={`/bookinglist`} className="font-bold">Booking List</Link>
             </li>
             <li>
-              <Link to={`/review`} className="font-bold">Review</Link>
+              <Link to={`/review`} className="font-bold">Add A Review</Link>
             </li>
           </ul>
         </div>
